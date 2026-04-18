@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple Website</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .box {
+            background: white;
+            margin: 10px auto;
+            padding: 15px;
+            width: 60%;
+            border-radius: 10px;
+            box-shadow: 0 0 5px gray;
+        }
+
+        button {
+            padding: 10px 15px;
+            background: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #555;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Website</h1>
+</header>
+
+<section class="box">
+    <h2>Welcome 👋</h2>
+    <p>This is my simple styled website.</p>
+</section>
+
+<section class="box">
+    <h2>About Me</h2>
+    <p>I am a student learning web development.</p>
+</section>
+
+<section class="box">
+    <h2>Projects</h2>
+    <p>1. Basic Website</p>
+    <p>2. Mini Project</p>
+</section>
+
+<section class="box">
+    <h2>Contact</h2>
+    <p>Email: aryanng.26@email.com</p>
+    <button onclick="showMessage()">Click Me</button>
+</section>
+
+<footer>
+    <p>Made By Aryan</p>
+</footer>
+
+<script>
+function showMessage() {
+    alert("Welcome to my website 🚀");
+}
+</script>
+
+</body>
+</html>
